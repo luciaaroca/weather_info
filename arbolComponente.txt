@@ -9,7 +9,16 @@ App --> App.jsx
             ......
     Footer --> Footer.jsx <footer>
 
+#Comandos de creación de carpetas
 npm install create-react-component-folder --save-dev
 npx crcf src/components/Header Main Footer -j  --notest -f
 npx crcf src/components/Main/WeatherList -j  --notest -f
 npx crcf src/components/Main/WeatherList/WeatherCard -j  --notest -f
+
+
+#INSTALACIONES
+npm i normalize.css
+npm i axios
+react-loader-spinner
+npm i uuid
+npm install create-react-component-folder --save-dev

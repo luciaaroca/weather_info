@@ -1,0 +1,36 @@
+ .card {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;  */
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;         
+  padding: 20px;     /* Espacio interno */
+
+}
+.form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  
+    gap: 20px;
+    width: 60%;
+}
+input{
+    height: 30px;
+     border: none;           /* Quita el borde */
+   outline: none; 
+   background-color: #f9f9f9; /* Opcional: fondo bonito */
+    border-radius: 6px;     /* Opcional: bordes redondeados */
+    padding:5px
+}
+
+.oval-container {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  min-height: 200px;       /* altura mínima del contenedor */
+}
+.error{
+    color:rgb(117, 20, 20);
+}
