@@ -1,0 +1,15 @@
+App --> App.jsx
+    Header --> Header.jsx <header>
+    Main   --> Main.jsx <main>
+        WeatherList --> WeatherList.jsx --> formulario
+            WeatherCard--->WeatherCard.jsx---> info meteorológica
+            WeatherCard
+            WeatherCard
+            WeatherCard
+            ......
+    Footer --> Footer.jsx <footer>
+
+npm install create-react-component-folder --save-dev
+npx crcf src/components/Header Main Footer -j  --notest -f
+npx crcf src/components/Main/WeatherList -j  --notest -f
+npx crcf src/components/Main/WeatherList/WeatherCard -j  --notest -f
