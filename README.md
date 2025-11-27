@@ -1,16 +1,61 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# EJERCICIO: WEATHER APP  ☀️☁️🌧️
 
-Currently, two official plugins are available:
+Este proyecto es un ejercicio práctico para trabajar useEffect, asincronía, formularios controlados y consumo de APIs en React. El objetivo es construir una pequeña aplicación que muestre el pronóstico extendido del tiempo usando la API 5 Day / 3 Hour Forecast de OpenWeather.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🛠 Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: Biblioteca principal de UI.
+- **React Hooks**: `useState` `useEffect` 
+- **JSX**: Para construir la estructura de los componentes.
+- **Props**: Para pasar datos y funciones entre `TodoList` y `Card`.
+- **UUID**: Paquete npm para generar claves únicas para cada tarea.
+- **CSS**: Estilos personalizados para Card, botones y formulario.
+- **JSON**: Archivo `data.json` para precarga de tareas.
+- **Netlify**: Despliegue de la aplicación.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Funcionalidades
+
+### 1. **WeatherList**
+- Recorre una lista de días del pronóstico extendido.
+- Muestra para cada día un conjunto de tarjetas con la información meteorológica.
+- Utiliza keys generadas con **UUID**.
+
+### 2. **WeatherCard**
+- Muestra el clima por franjas de 3 horas.
+- Incluye:
+  - 🕒 Horario  
+  - 🌡️ Temperatura  
+  - 🌤️ Estado del tiempo (clear, clouds, rain, etc.)  
+  - 🖼️ **(EXTRA)** Imagen ilustrativa del clima  
+
+### 3. **Buscador de ciudades**
+- Formulario con input de texto + botón.
+- Permite consultar el clima para cualquier ciudad.
+- Actualiza el pronóstico al enviar la búsqueda.
+
+---
+
+## 🌤️ API utilizada
+
+**OpenWeather – 5 Day / 3 Hour Forecast**
+
+Devuelve datos meteorológicos en intervalos de 3 horas durante 5 días.
+
+
+## 🔧 Instalación y ejecución
+
+```bash
+npm install
+npm run dev
+````
+
+
+
+## Despliegue en Netlify
+https://fancy-salmiakki-cff67c.netlify.app/
+
+## DRepositorio de Git Hub
+https://github.com/luciaaroca/todo_list.git
