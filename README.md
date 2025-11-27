@@ -9,10 +9,9 @@ Este proyecto es un ejercicio práctico para trabajar useEffect, asincronía, fo
 - **React**: Biblioteca principal de UI.
 - **React Hooks**: `useState` `useEffect` 
 - **JSX**: Para construir la estructura de los componentes.
-- **Props**: Para pasar datos y funciones entre `TodoList` y `Card`.
+- **Props**: Para pasar datos.
 - **UUID**: Paquete npm para generar claves únicas para cada tarea.
 - **CSS**: Estilos personalizados para Card, botones y formulario.
-- **JSON**: Archivo `data.json` para precarga de tareas.
 - **Netlify**: Despliegue de la aplicación.
 
 
@@ -27,6 +26,7 @@ Este proyecto es un ejercicio práctico para trabajar useEffect, asincronía, fo
 - Muestra el clima por franjas de 3 horas.
 - Incluye:
   - 🕒 Horario  
+  - 📆 Fecha 
   - 🌡️ Temperatura  
   - 🌤️ Estado del tiempo (clear, clouds, rain, etc.)  
   - 🖼️ **(EXTRA)** Imagen ilustrativa del clima  
@@ -55,7 +55,8 @@ npm run dev
 
 
 ## Despliegue en Netlify
-https://fancy-salmiakki-cff67c.netlify.app/
+https://grand-bienenstitch-9cfb7a.netlify.app/
 
 ## DRepositorio de Git Hub
-https://github.com/luciaaroca/todo_list.git
+https://github.com/luciaaroca/weather_info.git
+
